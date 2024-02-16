@@ -11,6 +11,7 @@
     /* border-radius: 16px;  */
     height: 593px;
     width: 1230px;
+    text-align: center;
     
 
 }
@@ -19,7 +20,7 @@
     font-weight: 400;
     font-size: 32px;
     color: white;
-    padding-top: 130px;
+    padding-top: 160px;
     margin: 0;
 }
 
@@ -29,43 +30,57 @@
     color: white;
     width: 500px;
     margin: 0;
+    padding-left: 380px;
 }
 
 /* offer section */
+.offer-section{
+    margin: 0 300px;
+}
 .offer {
     font-size: 64px;
     font-weight: 800;
     color: #FF0000;
     margin: 0;
     margin-top: 127px;
+    margin-left: 171px;
 }
 
-.offer-title,.gift-title {
+.offer-title {
     color: #FF0000;
-    margin-top: 49px;
+    margin-top: 15px;
     Font-weight: 500;
     Font-size: 24px;
+    width: 500px;
+    margin-left: 112px;
 }
 
 .offer-categories {
     font-size: 48px;
     font-weight: 700;
-}
+    width: 500px;
+    margin-left: 88px;
+    margin-top: 0;
+  }
 
-.new-year-img {
+/* .new-year-img {
     Width:802.9px;
     Height:500px;
+} */
+.new-year-img img{
+    width: 660px;
 }
 /* welcome party */
 .welcome-party{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-image: url('/images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     /* border-radius: 16px;  */
     height: 593px;
-    width: 1230px;
+    width: 1162px;
+  margin-left: 53px;
 }
 .welcome-party-title {
     text-align: left;
@@ -74,6 +89,7 @@
     font-weight: 600;
     font-size: 64px;
     color: white;
+    margin: 0;
   }
   .welcome-par {
     color: white;
@@ -83,16 +99,27 @@
   .btn button {
     color: white;
     background-color: transparent;
-    margin-right: 900px;
+    padding: 10px;
     border: 0;
+  }
+  .btn {
+    margin-left: 122px;
   }
   .btn button:hover{
     background-color:  #FF0000;
     border-radius: 5px;
   }
   /* gift */
+  .gift-title{
+    color: #FF0000;
+    margin-top: 15px;
+    Font-weight: 500;
+    Font-size: 24px;
+    width: 500px;
+    
+  }
   .gift{
-    margin-left: 20px;
+    margin-left: 60px;
     margin-right: 140px;
   }
   .portfolio,.sub{
@@ -111,7 +138,7 @@
     flex-wrap: wrap;
     gap: 24px;
     margin-top: 48px;
-    margin-left: 20px;
+    margin-left: 56px;
     margin-right: 20px;
   }
   .card img{
@@ -124,11 +151,11 @@
   /* subscribe */
   .subscribe {
     background-color: rgba(255, 0, 0, 0.05);
-    width: 1230px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 10px;
-    margin-top: 120px;
+  width: 1175px;
+  margin-left: 60px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-top: 120px;
   }
   .subscribe img {
     position: center;
@@ -162,8 +189,9 @@
   }
   footer {
     background-color: black;
-    color: white;
-    padding-top: 120px;
+  color: white;
+  padding-top: 120px;
+  margin-top: 80px;
   }
   .footer-section{
     display: flex;
